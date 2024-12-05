@@ -1,0 +1,37 @@
+.productDetailContainer {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid silver; */
+  background: #8f5cd654;
+  width: auto;
+  padding: 1rem;
+  gap: 1rem;
+  margin: 1rem auto;
+  height: 70vh;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.productDetailContainer img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.productDetailContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 750px) {
+  .productDetailContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .productDetailContainer img {
+    height: 400px;
+  }
+}

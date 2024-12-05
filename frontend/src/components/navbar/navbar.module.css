@@ -1,0 +1,117 @@
+.navWrapper {
+  width: 96%;
+  margin: 1rem auto;
+  position: sticky;
+  border-radius: 1rem;
+
+  top: 1rem;
+
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(3px);
+
+  padding: 1rem 1.2rem;
+  z-index: 99;
+}
+
+.innerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & a {
+    text-decoration: none;
+  }
+}
+
+.logo {
+  font-stretch: condensed;
+  font-size: 2rem;
+  letter-spacing: -0.2rem;
+  color: whitesmoke;
+}
+
+.linkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  & a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.cartCounter {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  background: red;
+  opacity: 0.7;
+  top: -1em;
+  /* right: 0.5em; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 750px) {
+  .hamburger {
+    display: block;
+  }
+  .linkWrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-end;
+    top: 100%;
+    right: 0;
+    padding: 1rem;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(3px);
+    border-radius: 0 1rem 1rem 1rem;
+    overflow: hidden;
+    max-height: 0;
+    visibility: hidden;
+  }
+
+  .showMenu {
+    max-height: 300px;
+    visibility: visible;
+  }
+
+  .hideMenu {
+    max-height: 0;
+    visibility: hidden;
+  }
+
+  .linkWrapper a {
+    color: rgb(41, 41, 41);
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .cartCounter {
+    bottom: 0;
+    right: 0.5em;
+  }
+}

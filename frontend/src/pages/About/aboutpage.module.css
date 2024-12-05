@@ -1,0 +1,42 @@
+.aboutContainer {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  & div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: start;
+    gap: 0.5rem;
+    height: auto;
+  }
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    max-height: 70vh;
+  }
+
+  & p {
+    font-weight: bold;
+    top: 4rem;
+    text-align: justify;
+
+    & span {
+      color: rgb(142, 37, 240);
+    }
+  }
+}
+
+@media (max-width) {
+  .aboutContainer {
+    & div {
+      & img {
+        display: none;
+      }
+    }
+  }
+}

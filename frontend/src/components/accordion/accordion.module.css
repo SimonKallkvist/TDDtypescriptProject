@@ -1,0 +1,53 @@
+.accordionContainer {
+  display: flex;
+  background: #8f5cd654;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.accordionContainer:hover {
+  background: #ac79f354;
+}
+
+.arrow {
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  font-size: 2.6rem;
+}
+
+.accordionDropDown {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease, padding 0.3s ease;
+  border-top: 1px solid silver;
+  background: #ac79f354;
+  padding: 0 2rem; /* Padding is collapsed initially */
+}
+
+.accordionDropDown.active {
+  height: auto; /* Allow it to grow to its full content height */
+  padding: 2rem; /* Add padding back when expanded */
+}
+
+.dropDownItem {
+  background: rgb(202, 202, 202);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  pointer-events: none;
+  gap: 2rem;
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid black;
+  flex-grow: 1;
+  color: black;
+  & p {
+    background: white;
+    padding: 1rem 2rem;
+    /* width: 100%; */
+  }
+}

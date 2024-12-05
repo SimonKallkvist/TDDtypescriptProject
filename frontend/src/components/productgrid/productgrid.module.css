@@ -1,0 +1,7 @@
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+  max-width: 1440px;
+  margin: 2rem auto;
+}

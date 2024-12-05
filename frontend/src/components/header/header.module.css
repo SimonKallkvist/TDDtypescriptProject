@@ -1,0 +1,58 @@
+.headerContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.portions {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  gap: 1rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2em;
+  }
+}
+
+.headerText {
+  font-size: 1.3em;
+
+  & span {
+    color: aqua;
+  }
+}
+
+/* MEDIA gör så grid blir i till flex och gör bilden absoulte */
+
+@media (max-width: 750px) {
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .portions {
+    position: unset;
+    height: auto;
+    & img {
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    }
+  }
+}

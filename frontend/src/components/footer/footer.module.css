@@ -1,0 +1,37 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(182, 182, 182, 0.26);
+  color: white;
+}
+
+.footerLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 550px) {
+  .footerContainer {
+    padding: 1rem;
+
+    & h2 {
+      font-size: 1rem;
+    }
+
+    & a {
+      font-size: 0.8rem;
+    }
+  }
+}

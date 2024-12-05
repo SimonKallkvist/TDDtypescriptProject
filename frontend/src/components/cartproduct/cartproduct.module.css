@@ -1,0 +1,44 @@
+.cartCard {
+  background: lightgray;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  height: 150px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: black;
+  position: relative;
+}
+
+.cartCard img {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: inherit;
+  border: 1px solid black;
+}
+
+.cartCard button {
+  position: absolute;
+  right: 2rem;
+}
+
+@media (max-width: 750px) {
+  .cartCard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.2rem;
+    height: auto;
+  }
+
+  .cartCard img {
+    height: 100px;
+  }
+
+  .cartCard button {
+    position: relative;
+    right: 0;
+  }
+}

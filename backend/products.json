@@ -1,0 +1,194 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Christmas Tree LED Lights",
+      "price": 29.99,
+      "imgUrl": "https://plus.unsplash.com/premium_photo-1661764559771-8f78623b352c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hyaXNtYXN8ZW58MHx8MHx8fDA%3D",
+      "quantityLeft": 70,
+      "description": "Warm LED string lights perfect for decorating your Christmas tree.",
+      "userRating": 4.5,
+      "numOfReviews": 8,
+      "reviews": [
+        {
+          "userName": "jollyElf12",
+          "review": "Beautiful lights! Bright and warm."
+        },
+        { "userName": "holidayFan", "review": "Perfect for my tree." },
+        { "userName": "noelLover", "review": "The ambiance is amazing." },
+        { "userName": "candyCane24", "review": "Loved the lights!" },
+        { "userName": "winterMagic", "review": "Super easy to use." },
+        { "userName": "hollyJolly", "review": "Good value." },
+        {
+          "userName": "rudolph93",
+          "review": "Nice, but shorter than expected."
+        },
+        {
+          "userName": "joy2World",
+          "review": "Great product, highly recommend!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Holiday Scented Candle Set",
+      "price": 19.99,
+      "imgUrl": "https://images.unsplash.com/photo-1668998463072-69a1e212abee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hyaXNtYXN8ZW58MHx8MHx8fDA%3D",
+      "quantityLeft": 67,
+      "description": "Set of three holiday-themed scented candles: pine, cinnamon, and vanilla.",
+      "userRating": 4.8,
+      "numOfReviews": 5,
+      "reviews": [
+        { "userName": "mistletoeMom", "review": "The scents are amazing!" },
+        { "userName": "festiveFan", "review": "Great quality, long-lasting." },
+        { "userName": "cozyHome", "review": "Lovely scents for the holidays." },
+        { "userName": "joyfulHeart", "review": "Perfect for holiday vibes." },
+        { "userName": "happyHolidays", "review": "Makes my home smell great." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Christmas Wreath",
+      "price": 39.99,
+      "imgUrl": "https://images.unsplash.com/photo-1666364653632-843af02213d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 120,
+      "description": "A classic Christmas wreath with pine cones and red berries.",
+      "userRating": 4.7,
+      "numOfReviews": 6,
+      "reviews": [
+        { "userName": "snowyNights", "review": "Looks great on my door." },
+        { "userName": "winterWonder", "review": "Beautiful and well-made." },
+        { "userName": "jingleAllDay", "review": "Great addition to my decor." },
+        { "userName": "frostyLove", "review": "Perfect size and quality." },
+        { "userName": "santaHelper", "review": "Gives a cozy vibe." },
+        { "userName": "tisTheSeason", "review": "Lovely and festive!" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Christmas Tree Skirt",
+      "price": 24.99,
+      "imgUrl": "https://images.unsplash.com/photo-1669423919953-689420c08a2b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 49,
+      "description": "A soft, plush tree skirt to complete your holiday tree setup.",
+      "userRating": 4.3,
+      "numOfReviews": 3,
+      "reviews": [
+        { "userName": "treeLover", "review": "Perfect for my tree base." },
+        { "userName": "merryTimes", "review": "Very soft and fluffy." },
+        { "userName": "frostyFields", "review": "Adds a nice touch!" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Snowflake Window Clings",
+      "price": 8.99,
+      "imgUrl": "https://images.unsplash.com/photo-1638399880649-e3ab53f75eac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 62,
+      "description": "Reusable snowflake window decals for festive decoration.",
+      "userRating": 4.0,
+      "numOfReviews": 2,
+      "reviews": [
+        { "userName": "snowyWinters", "review": "Looks cute on my windows." },
+        { "userName": "cozyHome", "review": "Simple but effective decoration." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Christmas Stocking Set",
+      "price": 15.99,
+      "imgUrl": "https://images.unsplash.com/photo-1640272022024-3e4f4845497b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 90,
+      "description": "Set of 4 Christmas stockings with holiday-themed designs.",
+      "userRating": 4.6,
+      "numOfReviews": 4,
+      "reviews": [
+        { "userName": "hohoho", "review": "Good quality stockings!" },
+        {
+          "userName": "candyCaneQueen",
+          "review": "Perfect for the whole family."
+        },
+        { "userName": "santaFanatic", "review": "Beautiful designs." },
+        { "userName": "treeTopStar", "review": "Great value." }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Mini Christmas Tree Desk Decor",
+      "price": 12.99,
+      "imgUrl": "https://images.unsplash.com/photo-1672355596662-3e1f2d45bede?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 56,
+      "description": "A small, pre-lit Christmas tree perfect for desks or small spaces.",
+      "userRating": 4.5,
+      "numOfReviews": 3,
+      "reviews": [
+        { "userName": "deskDecorator", "review": "Adorable little tree!" },
+        { "userName": "hollyJolly", "review": "Perfect for my office." },
+        { "userName": "tinyTree", "review": "Very cute and festive." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Holiday Throw Blanket",
+      "price": 34.99,
+      "imgUrl": "https://images.unsplash.com/photo-1641382494762-9614f308c3b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 89,
+      "description": "Soft and cozy throw blanket with a snowflake pattern.",
+      "userRating": 4.9,
+      "numOfReviews": 9,
+      "reviews": [
+        { "userName": "cozyFan", "review": "So warm and festive!" },
+        { "userName": "cuddleTime", "review": "Perfect for cold nights." },
+        { "userName": "homeForHolidays", "review": "Very soft." },
+        { "userName": "snuggleBear", "review": "Love the design." },
+        { "userName": "holidayVibes", "review": "Great quality." },
+        { "userName": "warmAndCozy", "review": "Perfect for winter." },
+        { "userName": "stayWarm", "review": "Love it!" },
+        {
+          "userName": "frostyNight",
+          "review": "Very happy with this blanket."
+        },
+        { "userName": "snowyHugs", "review": "Highly recommend!" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Christmas Ornament Set",
+      "price": 18.99,
+      "imgUrl": "https://images.unsplash.com/photo-1639470903718-fe8275dba97f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 38,
+      "description": "Set of 20 assorted Christmas ornaments in red and gold.",
+      "userRating": 2.2,
+      "numOfReviews": 7,
+      "reviews": [
+        { "userName": "ornamentFan", "review": "Beautiful colors!" },
+        { "userName": "holidaysHere", "review": "Great addition to my tree." },
+        { "userName": "redGoldFan", "review": "Good quality ornaments." },
+        { "userName": "xmasTime", "review": "Affordable and pretty." },
+        { "userName": "happyFamily", "review": "Exactly what I wanted." },
+        { "userName": "treeLover", "review": "Very festive." },
+        { "userName": "holidayJoy", "review": "Love these ornaments!" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "LED Snowman Decoration",
+      "price": 26.99,
+      "imgUrl": "https://images.unsplash.com/photo-1652525752632-18d7d921d3e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGNocmlzbWFzfGVufDB8fDB8fHww",
+      "quantityLeft": 75,
+      "description": "LED-lit snowman decoration with a scarf and hat.",
+      "userRating": 4.2,
+      "numOfReviews": 5,
+      "reviews": [
+        { "userName": "snowFan", "review": "Adorable and bright!" },
+        { "userName": "jollyTime", "review": "Looks great in my yard." },
+        { "userName": "frostyFan", "review": "Kids love it." },
+        { "userName": "holidaysAreHere", "review": "Perfect decoration." },
+        {
+          "userName": "snowLover",
+          "review": "Great holiday vibes and fun for the kids. "
+        }
+      ]
+    }
+  ]
+}
